@@ -1,0 +1,4 @@
+mybib
+=====
+
+list of references
