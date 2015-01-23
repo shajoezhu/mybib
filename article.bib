@@ -479,7 +479,7 @@ pages={444-456},
 year={2001}
 }
 
-@article{Chen2009,
+@article{Chen2009macs,
 title={Fast and flexible simulation of DNA sequence data},
 author={Gary K. Chen and Paul Marjoram and Jeffrey D. Wall},
 journal={Genome Res.},
@@ -2989,10 +2989,18 @@ number = {5701},
 pages = {1561-1565}, 
 year = {2004}, 
 doi = {10.1126/science.1101074}, 
-abstract ={The widespread extinctions of large mammals at the end of the Pleistocene epoch have often been attributed to the depredations of humans; here we present genetic evidence that questions this assumption. We used ancient DNA and Bayesian techniques to reconstruct a detailed genetic history of bison throughout the late Pleistocene and Holocene epochs. Our analyses depict a large diverse population living throughout Beringia until around 37,000 years before the present, when the population's genetic diversity began to decline dramatically. The timing of this decline correlates with environmental changes associated with the onset of the last glacial cycle, whereas archaeological evidence does not support the presence of large populations of humans in Eastern Beringia until more than 15,000 years later.}, 
 URL = {http://www.sciencemag.org/content/306/5701/1561.abstract}, 
 eprint = {http://www.sciencemag.org/content/306/5701/1561.full.pdf}, 
 journal = {Science} 
+}
+
+@article{Sharkey2001,
+author={Michael J. Sharkey and Jason W. Leathers},
+title={Majority Does not rule: The trouble with majority-rule consensus trees},
+journal={Cladistics},
+volume={17},
+pages={282-284},
+year={2001}
 }
 
 @incollection{Shaw1998,
@@ -3020,13 +3028,18 @@ eprint = {http://www.genetics.org/content/194/3/647.full.pdf+html},
 journal = {Genetics} 
 }
 
-@article{Sharkey2001,
-author={Michael J. Sharkey and Jason W. Leathers},
-title={Majority Does not rule: The trouble with majority-rule consensus trees},
-journal={Cladistics},
-volume={17},
-pages={282-284},
-year={2001}
+@article{Shlyakhter2014,
+author = {Shlyakhter, Ilya and Sabeti, Pardis C. and Schaffner, Stephen F.}, 
+title = {Cosi2: an efficient simulator of exact and approximate coalescent with selection},
+volume = {30}, 
+number = {23}, 
+pages = {3427-3429}, 
+year = {2014}, 
+doi = {10.1093/bioinformatics/btu562}, 
+abstract ={Motivation: Efficient simulation of population genetic samples under a given demographic model is a prerequisite for many analyses. Coalescent theory provides an efficient framework for such simulations, but simulating longer regions and higher recombination rates remains challenging. Simulators based on a Markovian approximation to the coalescent scale well, but do not support simulation of selection. Gene conversion is not supported by any published coalescent simulators that support selection.Results: We describe cosi2, an efficient simulator that supports both exact and approximate coalescent simulation with positive selection. cosi2 improves on the speed of existing exact simulators, and permits further speedup in approximate mode while retaining support for selection. cosi2 supports a wide range of demographic scenarios, including recombination hot spots, gene conversion, population size changes, population structure and migration.cosi2 implements coalescent machinery efficiently by tracking only a small subset of the Ancestral Recombination Graph, sampling only relevant recombination events, and using augmented skip lists to represent tracked genetic segments. To preserve support for selection in approximate mode, the Markov approximation is implemented not by moving along the chromosome but by performing a standard backwards-in-time coalescent simulation while restricting coalescence to node pairs with overlapping or near-overlapping genetic material. We describe the algorithms used by cosi2 and present comparisons with existing selection simulators.Availability and implementation: A free C++ implementation of cosi2 is available at http://broadinstitute.org/mpg/cosi2.Contact: ilya@broadinstitute.orgSupplementary information: Supplementary data are available at Bioinformatics online.}, 
+URL = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.abstract}, 
+eprint = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.full.pdf+html}, 
+journal = {Bioinformatics} 
 }
 
 @article{Skouras1998,
