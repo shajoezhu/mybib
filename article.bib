@@ -843,6 +843,21 @@ year={2012}
   keywords  = {from network, generation, phylogenetic network, phylogeny, statistical model}
 }
 
+
+@article{Eldon2015,
+author = {Eldon, Bjarki and Birkner, Matthias and Blath, Jochen and Freund, Fabian},
+title = {Can the Site-Frequency Spectrum Distinguish Exponential Population Growth from Multiple-Merger Coalescents?},
+volume = {199},
+number = {3},
+pages = {841-856},
+year = {2015},
+doi = {10.1534/genetics.114.173807},
+abstract ={The ability of the site-frequency spectrum (SFS) to reflect the particularities of gene genealogies exhibiting multiple mergers of ancestral lines as opposed to those obtained in the presence of population growth is our focus. An excess of singletons is a well-known characteristic of both population growth and multiple mergers. Other aspects of the SFS, in particular, the weight of the right tail, are, however, affected in specific ways by the two model classes. Using an approximate likelihood method and minimum-distance statistics, our estimates of statistical power indicate that exponential and algebraic growth can indeed be distinguished from multiple-merger coalescents, even for moderate sample sizes, if the number of segregating sites is high enough. A normalized version of the SFS (nSFS) is also used as a summary statistic in an approximate Bayesian computation (ABC) approach. The results give further positive evidence as to the general eligibility of the SFS to distinguish between the different histories.},
+URL = {http://www.genetics.org/content/199/3/841.abstract},
+eprint = {http://www.genetics.org/content/199/3/841.full.pdf+html},
+journal = {Genetics}
+}
+
 @article{Eriksson2009,
 title = "Sequential Markov coalescent algorithms for population models with demographic structure",
 journal = "Theoretical Population Biology",
@@ -2600,6 +2615,16 @@ eprint = {http://www.genetics.org/content/155/3/1429.full.pdf+html},
 journal = {Genetics} 
 }
 
+@Manual{Rmanual,
+    title = {R: A Language and Environment for Statistical Computing},
+    author = {{R Core Team}},
+    organization = {R Foundation for Statistical Computing},
+    address = {Vienna, Austria},
+    year = {2012},
+    note = {{ISBN} 3-900051-07-0},
+    url = {http://www.R-project.org/}
+}
+
 @article{Rannala1996,
 year={1996},
 issn={0022-2844},
@@ -3036,7 +3061,6 @@ number = {23},
 pages = {3427-3429}, 
 year = {2014}, 
 doi = {10.1093/bioinformatics/btu562}, 
-abstract ={Motivation: Efficient simulation of population genetic samples under a given demographic model is a prerequisite for many analyses. Coalescent theory provides an efficient framework for such simulations, but simulating longer regions and higher recombination rates remains challenging. Simulators based on a Markovian approximation to the coalescent scale well, but do not support simulation of selection. Gene conversion is not supported by any published coalescent simulators that support selection.Results: We describe cosi2, an efficient simulator that supports both exact and approximate coalescent simulation with positive selection. cosi2 improves on the speed of existing exact simulators, and permits further speedup in approximate mode while retaining support for selection. cosi2 supports a wide range of demographic scenarios, including recombination hot spots, gene conversion, population size changes, population structure and migration.cosi2 implements coalescent machinery efficiently by tracking only a small subset of the Ancestral Recombination Graph, sampling only relevant recombination events, and using augmented skip lists to represent tracked genetic segments. To preserve support for selection in approximate mode, the Markov approximation is implemented not by moving along the chromosome but by performing a standard backwards-in-time coalescent simulation while restricting coalescence to node pairs with overlapping or near-overlapping genetic material. We describe the algorithms used by cosi2 and present comparisons with existing selection simulators.Availability and implementation: A free C++ implementation of cosi2 is available at http://broadinstitute.org/mpg/cosi2.Contact: ilya@broadinstitute.orgSupplementary information: Supplementary data are available at Bioinformatics online.}, 
 URL = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.abstract}, 
 eprint = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.full.pdf+html}, 
 journal = {Bioinformatics} 
