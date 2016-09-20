@@ -3036,8 +3036,6 @@ number = {23},
 pages = {3427-3429}, 
 year = {2014}, 
 doi = {10.1093/bioinformatics/btu562}, 
-abstract ={Motivation: Efficient simulation of population genetic samples under a given demographic model is a prerequisite for many analyses. Coalescent theory provides an efficient framework for such simulations, but simulating longer regions and higher recombination rates remains challenging. Simulators based on a Markovian approximation to the coalescent scale well, but do not support simulation of selection. Gene conversion is not supported by any published coalescent simulators that support selection.Results: We describe cosi2, an efficient simulator that supports both exact and approximate coalescent simulation with positive selection. cosi2 improves on the speed of existing exact simulators, and permits further speedup in approximate mode while retaining support for selection. cosi2 supports a wide range of demographic scenarios, including recombination hot spots, gene conversion, population size changes, population structure and migration.cosi2 implements coalescent machinery efficiently by tracking only a small subset of the Ancestral Recombination Graph, sampling only relevant recombination events, and using augmented skip lists to represent tracked genetic segments. To preserve support for selection in approximate mode, the Markov approximation is implemented not by moving along the chromosome but by performing a standard backwards-in-time coalescent simulation while restricting coalescence to node pairs with overlapping or near-overlapping genetic material. We describe the algorithms used by cosi2 and present comparisons with existing selection simulators.Availability and implementation: A free C++ implementation of cosi2 is available at http://broadinstitute.org/mpg/cosi2.Contact: ilya@broadinstitute.orgSupplementary information: Supplementary data are available at Bioinformatics online.}, 
-URL = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.abstract}, 
 eprint = {http://bioinformatics.oxfordjournals.org/content/30/23/3427.full.pdf+html}, 
 journal = {Bioinformatics} 
 }
@@ -3414,6 +3412,15 @@ volume={25},
 number={2},
 pages={447-453},
 year={2008}
+}
+
+@book{Who2016,
+  Author = {WHO},
+  Title = {World Malaria Report 2015},
+  Publisher = {World Health Organization},
+  Year = {2016},
+  ISBN = {9241565152},
+  URL = {http://www.amazon.com/World-Malaria-Report-Health-Organization/dp/9241565152%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D9241565152}
 }
 
 @article{Wiens2000,
